@@ -1,0 +1,74 @@
+2023-07-15 11:37:00.556288
+Traceback (most recent call last):
+  File "main.py", line 406, in handelwork
+  File "selenium\webdriver\remote\webdriver.py", line 587, in window_handles
+  File "selenium\webdriver\remote\webdriver.py", line 440, in execute
+  File "selenium\webdriver\remote\errorhandler.py", line 245, in check_response
+selenium.common.exceptions.WebDriverException: Message: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=114.0.5735.199)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x00D9A813+48355]
+	(No symbol) [0x00D2C4B1]
+	(No symbol) [0x00C35358]
+	(No symbol) [0x00C270EB]
+	(No symbol) [0x00C277AA]
+	(No symbol) [0x00C27748]
+	(No symbol) [0x00C1C2AA]
+	(No symbol) [0x00C1CB1D]
+	(No symbol) [0x00C82F37]
+	(No symbol) [0x00C7A703]
+	(No symbol) [0x00C582DC]
+	(No symbol) [0x00C593DD]
+	GetHandleVerifier [0x00FFAABD+2539405]
+	GetHandleVerifier [0x0103A78F+2800735]
+	GetHandleVerifier [0x0103456C+2775612]
+	GetHandleVerifier [0x00E251E0+616112]
+	(No symbol) [0x00D35F8C]
+	(No symbol) [0x00D32328]
+	(No symbol) [0x00D3240B]
+	(No symbol) [0x00D24FF7]
+	BaseThreadInitThunk [0x77A97D59+25]
+	RtlInitializeExceptionChain [0x77DDB79B+107]
+	RtlClearBits [0x77DDB71F+191]
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "main.py", line 240, in run
+  File "main.py", line 410, in handelwork
+  File "selenium\webdriver\remote\webdriver.py", line 587, in window_handles
+  File "selenium\webdriver\remote\webdriver.py", line 440, in execute
+  File "selenium\webdriver\remote\errorhandler.py", line 245, in check_response
+selenium.common.exceptions.WebDriverException: Message: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=114.0.5735.199)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x00D9A813+48355]
+	(No symbol) [0x00D2C4B1]
+	(No symbol) [0x00C35358]
+	(No symbol) [0x00C270EB]
+	(No symbol) [0x00C277AA]
+	(No symbol) [0x00C27748]
+	(No symbol) [0x00C1C2AA]
+	(No symbol) [0x00C1CB1D]
+	(No symbol) [0x00C82F37]
+	(No symbol) [0x00C7A703]
+	(No symbol) [0x00C582DC]
+	(No symbol) [0x00C593DD]
+	GetHandleVerifier [0x00FFAABD+2539405]
+	GetHandleVerifier [0x0103A78F+2800735]
+	GetHandleVerifier [0x0103456C+2775612]
+	GetHandleVerifier [0x00E251E0+616112]
+	(No symbol) [0x00D35F8C]
+	(No symbol) [0x00D32328]
+	(No symbol) [0x00D3240B]
+	(No symbol) [0x00D24FF7]
+	BaseThreadInitThunk [0x77A97D59+25]
+	RtlInitializeExceptionChain [0x77DDB79B+107]
+	RtlClearBits [0x77DDB71F+191]
+
+
